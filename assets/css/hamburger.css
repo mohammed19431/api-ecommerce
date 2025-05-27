@@ -1,0 +1,30 @@
+/* Default state: hide menu and show hamburger only on mobile */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      gap: 15px;
+      background: #1e1e1e;
+      padding: 20px;
+      position: absolute;
+      top: 80px;
+      right: 20px;
+      z-index: 999;
+    }
+  
+    .nav-menu.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  

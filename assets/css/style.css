@@ -5,21 +5,25 @@
 header {
     background-color: #1e1e1e84;
     display: flex;
+    width: 100%;
   }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
-    padding:  40px;
+    padding: 20px 40px;
     border-bottom: 10px rgba(0, 255, 213, 0.642);
     color: rgb(255, 255, 255);
+    width: 100%;
 }
 
 .nav-menu{
     list-style: none;
     display: flex;
     gap: 30px;
+    justify-content: center;
+    align-items: end;
+    transition: all 0.3s ease;
   }
   
   .nav-menu li a {
@@ -35,13 +39,12 @@ header {
   }
  
   .logo img {
-    width: 100%;
-    height: auto;
-    max-height: 55.13px
+    width: auto;
+    height: 55px;
   }
   /* Main section */
 .section {
-  max-width: 1100px;
+  max-width: 100%;
   margin: 40px auto;
   padding: 0 20px;
 }
