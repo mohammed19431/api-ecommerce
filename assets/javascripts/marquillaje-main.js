@@ -1,3 +1,4 @@
+
 import { fetchProductsByType } from './marquillaje-api.js';
 
 const container = document.getElementById('product-list');
