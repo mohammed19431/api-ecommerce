@@ -163,7 +163,10 @@ footer{
   color: azure;
   text-align: center;
   padding: 40px;
+  font-size: 22px;
+  font-weight: 700;
 }
+
 .footer-icons ul {
   display: flex;
   justify-content: center; 
